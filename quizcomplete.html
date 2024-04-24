@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+    #Next { /* Changed the selector to #Next for the "Next" button */
+            position: static;
+            margin-top: 40px;
+            margin-left: 40px; /* Adjust the top position as needed */
+            width: 200px;
+            height: 50px;
+            background-color: #fbab1a;
+            text-align: center; /* Center the text horizontally */
+            vertical-align: middle; /* Center the text vertically */
+            line-height: 50px; /* Line height equal to the div height for vertical centering */
+            font-family: 'Poppins', sans-serif;
+            border-radius: 10px; /* Add rounded corners */
+            margin:10px auto 0;
+        }
+
+    .grid-container {
+display:grid;
+grid-template-columns: 1.5fr 1fr;
+    }
+    .container{ margin: 140px auto 0;
+        margin-left: 100px;
+    }
+    .container2 {margin: 60px auto 0;
+        margin-left: 100px;
+    }
+    .image1{
+    width:500px
+}
+.image2{
+    width:500px
+}
+.image3{
+    margin-top: 80px;
+    margin-right: 100px;
+    width:500px
+}
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+}
+</style>
+<body style="background-color: #9dbbd7;">
+    <div class="grid-container">
+        <div class="grid-item grid-item1">
+            <div class="container"><img src="complete.png" class="image1"></div>
+            <div class="container2"><img src="quizcompletetext.png" class="image2"></div>
+            <div id="Next">
+                <a href="https://ananyas-ultra-awesome-site-fc53e2.webflow.io/">Back</a>
+                </div>
+        </div>
+        <div class="grid-item grid-item2">
+            <img src="award 3.png" class="image3">
+            <div class="text">View awards in profile page</div>
+
+        </div>
+    </div>
+</body>
